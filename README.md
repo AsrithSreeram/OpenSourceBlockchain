@@ -3,6 +3,8 @@
 
 What is blockchain?
 
+***
+
 Essentially, blockchain technology acts as a structure that stores transactional records (block) in several databases (chain) in a network connected with nodes and hence, the name "blockchain." It is a system of recording information that makes it difficult or even impossible to edit, hack, or duplicate. This is done so through decentralization and cryptographic hashing.
 
 An easy way of thinking about this is by comparing it to a Google Doc. When creating a google document, you can distribute it to others without having to make a copy or transferring access to the doc. This acts as a decentralized chain as everyone has access to the document at the same time. All modifications to the document are being recorded live-time and it is transparent. On the other hand, a word document would not suffice with this analogy. For a word document, you will need to save the file and transfer it to another party and then the other party will have their own copy. 
@@ -22,6 +24,7 @@ Nodes: Since no one computer can create a chain, it has to be distributed and th
 Miners: This is what creates new blocks on the chain. Since every block has its own unique nonce and hash but also references hash of previous block in chain, mining becomes very hard, especially in large chains. To solve these complex mathematical problems, softwares such as Sisense and Alteryx come into play and they are tools that help find a nonce that generates an accepted hash. To put it into perspective, there are 4 billion possible nonce-hash combinaotrs and when the right one is found, it is called the "golden nonce" and the block is added to the chain. To add the block to the chain successfully, it requires re-mining not just the block with the change but all of the blocks that come after. 
 
 Use cases of blockchain:
+***
  *Voting mechanisms (voting fraud issue)
  *Advertising Insights
  *Cryptocurrency Exchange
@@ -30,7 +33,7 @@ Use cases of blockchain:
 
 
 What is hyperledger fabric?
-
+***
 Hyperledger Fabric was initiated by IBM and Digital Asset but currently hosted by Linux Foundation. 
 
 One type of blockchain framework includes Hyperledger fabric. It is a modular blockchain framework that is a foundation for developing products, solutions, and application components for private enterprises. Since Hyperledger Fabric is private and requires permission to access, businesses can extract information and transactions can be sped up as # of nodes in network is reduced. 
@@ -48,6 +51,7 @@ Modular Architecture of Hyperledger Fabric:
 *Transaction Validation/Commitment
 
 Use cases of hyperledger fabric
+***
 
 Many business sectors, such as healthcare and finance, are bound by data protection regulations that mandate maintaining data about the various participants and their respective access to various data points. Fabric supports such permission-based membership.
 
@@ -58,6 +62,7 @@ Since the movement of the product may involve other parties, like customs, a shi
 Hyperledger Fabric addresses this issue by keeping private transactions private on the network; only participants who need to know are aware of the necessary details. Data partitioning on the blockchain allows specific data points to be accessible only to the parties who need to know.
 
 What is carbon credits?
+***
 
 A rather overloaded term, “carbon credits” can refer to both government-issued credits traded on regulated markets, and voluntary carbon offsetting where credits can help remove emissions via projects that plant trees, for instance. Blockchain technology has been touted as a way to prevent the double counting (or double spending) of carbon credits in all areas and markets.
 
